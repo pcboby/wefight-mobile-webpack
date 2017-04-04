@@ -1,0 +1,165 @@
+/*  */
+.al-toggle-button {
+    appearance: none;
+    -webkit-appearance: none;
+    position: relative;
+    width: 48px;
+    height: 28px;
+    background: #dfdfdf;
+    border-radius: 16px;
+    border: 1px solid #dfdfdf;
+    outline: 0;
+    box-sizing: border-box;
+    top: -4px;
+    vertical-align: middle;
+}
+
+.al-toggle-button:checked {
+    border-color: #04be02;
+    background-color: #04be02;
+}
+
+.al-toggle-button:before,
+.al-toggle-button:after {
+    content: " ";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 26px;
+    border-radius: 15px;
+    transition: transform 0.3s;
+    transition: -webkit-transform 0.3s;
+    transition: transform 0.3s, -webkit-transform 0.3s;
+    -webkit-transition: -webkit-transform 0.3s;
+}
+
+.al-toggle-button:before {
+    width: 46px;
+    background-color: #fdfdfd;
+}
+
+.al-toggle-button:after {
+    width: 26px;
+    background-color: white;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.4);
+}
+
+.al-toggle-button:checked:before {
+    transform: scale(0);
+    -webkit-transform: scale(0);
+}
+
+.al-toggle-button:checked:after {
+    transform: translateX(20px);
+    -webkit-transform: translateX(20px);
+}
+/*  */
+.btn{
+    border-radius: 0;
+    margin: 0 5px;
+}
+.btn-block-d{
+    height: 34px;
+    padding: 4px;
+    border: 1px solid #f84221;
+    color: #f84221;
+    background:transparent;
+}
+.btn-block-o{
+    color: #fff;
+    height: 34px;
+    padding: 4px;
+    border: 1px solid transparent;
+    background-image: -webkit-linear-gradient(to right, #f84221, #fd8024);
+    background-image: linear-gradient(to right, #f84221, #fd8024);
+}
+.btn-block-o-sm{
+    color: #fff;
+    height: 16px;
+    padding: 3px .635em;
+    border-radius: 20px;
+    background-image: -webkit-linear-gradient(to right, #f84221, #fd8024);
+    background-image: linear-gradient(to right, #f84221, #fd8024);
+}
+.btn-block-d:disabled,.btn-block-o:disabled{
+    opacity: .5;
+}
+
+/*  */
+
+.input-group{
+    display: block;
+}
+.input-group textarea{
+    width: 100%;
+    resize:none;
+    outline: none;
+}
+.input-group input[type=text],.input-group input[type=number],.input-group input[type=mail]{
+    width: 100%;
+    outline: none;
+}
+/* .input-group input[type=checkbox]{} */
+
+/*  */
+.input-widget-group{
+    line-height: 32px;
+}
+.input-widget-group input[type=checkbox],.input-widget-group input[type=radio]{
+    width: 0;
+    height: 0;
+    position: absolute;
+}
+.input-widget-group input[type=checkbox]+label,.input-widget-group input[type=radio]+label{
+    display: block;
+    margin: 0;
+    padding-top: 4px;
+    padding-right: 4px;
+    padding-bottom: 4px;
+    padding-left: 40px;
+    position: relative;
+}
+.input-widget-group input[type=checkbox]:disabled+label,.input-widget-group input[type=radio]:disabled+label{
+    opacity: .5;
+}
+.input-widget-group input[type=checkbox]+label::before,.input-widget-group input[type=radio]+label::before{
+    width: 24px;
+    height: 24px;
+    text-align: center;
+    line-height: 24px;
+    color: #f1f1f1;
+    position: absolute;
+    top: 8px;
+    left: 8px;
+    font-family: 'Glyphicons Halflings';
+}
+.input-widget-group input[type=checkbox]+label::before,.input-widget-group input[type=radio]+label::before{
+    content: "\e084";
+}
+.input-widget-group input[type=checkbox]:checked+label,.input-widget-group input[type=radio]:checked+label,
+.input-widget-group input[type=checkbox]:checked+label::before,.input-widget-group input[type=radio]:checked+label::before{
+    color: #f90;
+}
+.input-widget-group[mode=right] input[type=checkbox]+label,.input-widget-group[mode=right] input[type=radio]+label{
+    padding-top: 4px;
+    padding-right: 40px;
+    padding-bottom: 4px;
+    padding-left: 4px;
+}
+.input-widget-group input[type=checkbox]+label::before,.input-widget-group input[type=radio]+label::before{
+    left: auto;
+    right: 8px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

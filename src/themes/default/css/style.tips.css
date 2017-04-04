@@ -1,0 +1,19 @@
+[tips]{
+	position: relative;
+}
+[tips]::after{
+	content: attr(tips);
+	position: absolute;
+	top: -12px;
+	right: -14px;
+	text-align:center;
+	font-size: 16px;
+	height: 24px;
+	line-height: 16px;
+	min-width: 24px;
+	padding: 3px 6px 5px 6px;
+	background-color: rgba(248,66,33,.85);
+	color: #fff;
+	border-radius: 12px;
+	transform:scale(.65); 
+}

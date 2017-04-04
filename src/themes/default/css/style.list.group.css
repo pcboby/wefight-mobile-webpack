@@ -1,0 +1,58 @@
+.list-group-header{
+	color: #fff;
+	height: 176px;
+	background-color: #6077e9;
+	background-size: cover;
+	background-position: center center;
+
+	text-align: center;
+    
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+.list-group-header h4{
+	margin: 10px auto;
+}
+
+ul.list-group-users,
+ul.list-group-users li{
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	list-style: none;
+}
+ul.list-group-users{
+	margin: 10px auto;
+	width: 60px;
+}
+ul.list-group-users li{
+	display: inline-block;
+}
+ul.list-group-users li i{
+	float: left;
+	margin: 0;
+	border: 1px solid rgba(255,255,255,.75);
+}
+ul.list-group-users[data-view='2']{}
+ul.list-group-users[data-view='2'] li i{
+	margin: 0 -10px;
+}
+ul.list-group-users[data-view='3'],ul.list-group-users[data-view='4']{
+	width: 60px;
+}
+ul.list-group-users[data-view='4'] li i,ul.list-group-users[data-view='3'] li i{
+	width: 28px !important;
+	height: 28px !important;
+	margin: -5px;
+}

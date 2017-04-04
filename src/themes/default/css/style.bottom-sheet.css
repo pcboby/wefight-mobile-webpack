@@ -1,0 +1,10 @@
+.bottom-sheet{
+	position: fixed;
+	z-index: 8;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	padding: 30px 5.875% 10px 5.875%;
+    background-image: -webkit-linear-gradient(to bottom, rgba(52,55,69,0), #343745, #343745, #343745);
+    background-image: linear-gradient(to bottom, rgba(52,55,69,0), #343745, #343745, #343745);
+}
