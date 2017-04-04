@@ -9,4 +9,5 @@ export default {
 }
 </script>
 <style>
+	@import '/static/themes/default/css/style.css';
 </style>
