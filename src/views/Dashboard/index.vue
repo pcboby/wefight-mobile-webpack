@@ -1,48 +1,52 @@
 <template>
-  <div>
-    <mu-appbar title="Dashboard" title-class="tc">
-      <mu-icon-button slot="left">
-        <i class="fa fa-reorder"></i>
-      </mu-icon-button>
-      <mu-icon-menu icon="more_vert" slot="right">
-        <mu-menu-item title="菜单 1" />
-        <mu-menu-item title="菜单 2" />
-        <mu-menu-item title="菜单 3" />
-        <mu-menu-item title="菜单 4" />
-        <mu-menu-item title="菜单 5" />
-      </mu-icon-menu>
-    </mu-appbar>
-    <div class="potal">
-      <div class="potal-header">
-        页面
-      </div>
-      <div class="potal-body">
-        <ul class="list border">
-          <li>
-            <a class="list-item fa fa-chevron-right" href="#/Bridge.html">
-              <i class="icon icon-layers c-02"></i>
-              <span>宣传桥页</span>
-            </a>
-          </li>
-          <li>
-            <a class="list-item fa fa-chevron-right" href="#/Group.html">
-              <i class="icon icon-layers c-02"></i>
-              <span>群</span>
-            </a>
-          </li>
-          <li>
-            <a class="list-item fa fa-chevron-right" href="#/Project.html">
-              <i class="icon icon-layers c-02"></i>
-              <span>项目</span>
-            </a>
-          </li>
-          <li>
-            <a class="list-item fa fa-chevron-right" href="#/Signup.html">
-              <i class="icon icon-layers c-02"></i>
-              <span>注册/报名</span>
-            </a>
-          </li>
-        </ul>
+  <div class="on-fix-header">
+    <div class="header">
+      <mu-appbar title="Dashboard" title-class="tc">
+        <mu-icon-button slot="left">
+          <i class="fa fa-reorder"></i>
+        </mu-icon-button>
+        <mu-icon-menu icon="more_vert" slot="right">
+          <mu-menu-item title="菜单 1" />
+          <mu-menu-item title="菜单 2" />
+          <mu-menu-item title="菜单 3" />
+          <mu-menu-item title="菜单 4" />
+          <mu-menu-item title="菜单 5" />
+        </mu-icon-menu>
+      </mu-appbar>
+    </div>
+    <div class="wraper">
+      <div class="potal">
+        <div class="potal-header">
+          页面
+        </div>
+        <div class="potal-body">
+          <ul class="list border">
+            <li>
+              <a class="list-item fa fa-chevron-right" href="#/Bridge.html">
+                <i class="icon icon-layers c-02"></i>
+                <span>宣传桥页</span>
+              </a>
+            </li>
+            <li>
+              <a class="list-item fa fa-chevron-right" href="#/Group.html">
+                <i class="icon icon-layers c-02"></i>
+                <span>群</span>
+              </a>
+            </li>
+            <li>
+              <a class="list-item fa fa-chevron-right" href="#/Project.html">
+                <i class="icon icon-layers c-02"></i>
+                <span>项目</span>
+              </a>
+            </li>
+            <li>
+              <a class="list-item fa fa-chevron-right" href="#/Signup.html">
+                <i class="icon icon-layers c-02"></i>
+                <span>注册/报名</span>
+              </a>
+            </li>
+          </ul>
+        </div>
       </div>
     </div>
   </div>

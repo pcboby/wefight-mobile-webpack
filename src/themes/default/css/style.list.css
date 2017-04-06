@@ -158,7 +158,7 @@ ul.list-inline li {
 /*  */
 
 .user-photo {
-  display: block;
+  /* display: block; */
   position: relative;
   background-size: cover;
   width: 36px;
