@@ -28,6 +28,12 @@
               </a>
             </li>
             <li>
+              <a class="list-item fa fa-chevron-right" href="#/Main.html">
+                <i class="icon icon-layers c-02"></i>
+                <span>单兵作战（首页）</span>
+              </a>
+            </li>
+            <li>
               <a class="list-item fa fa-chevron-right" href="#/Group.html">
                 <i class="icon icon-layers c-02"></i>
                 <span>群</span>

@@ -10,6 +10,8 @@ import Group from '@/views/Group/index.vue'
 import Project from '@/views/Project/index.vue'
 // 报名注册
 import Signup from '@/views/Signup/index.vue'
+// 单兵作战
+import Main from '@/views/Main/index.vue'
 
 Vue.use(Router)
 
@@ -34,5 +36,9 @@ export default new Router({
     path: '/Signup.html',
     name: 'Signup',
     component: Signup
+  }, {
+    path: '/Main.html',
+    name: 'Main',
+    component: Main
   }]
 })
