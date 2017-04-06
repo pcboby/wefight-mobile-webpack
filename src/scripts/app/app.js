@@ -1,14 +1,13 @@
-// The Vue build version to load with the `import` command
-// (runtime-only or standalone) has been set in webpack.base.conf with an alias.
-import '@/themes/default/css/style.css'
-import 'bootstrap/dist/bootstrap.css'
+// ==================================================================
+// 构建基础框架
+// ==================================================================
 import Vue from 'vue'
-import App from '@/tpls/App.vue'
 import router from './app.router.js'
-
-// import MuseUI from 'muse-ui'
-// import 'muse-ui/dist/muse-ui.css'
-// Vue.use(MuseUI)
+import ui from './app.ui.js'
+// ==================================================================
+// 加载项目页面及组件
+// ==================================================================
+import App from '@/tpls/App.vue'
 
 Vue.config.productionTip = false
 
@@ -16,6 +15,7 @@ Vue.config.productionTip = false
 new Vue({
   el: '#app',
   router,
+  ui,
   template: '<App/>',
   components: { App }
 })
