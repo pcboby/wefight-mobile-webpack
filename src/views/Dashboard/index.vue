@@ -24,6 +24,24 @@
               <span>宣传桥页</span>
             </a>
           </li>
+          <li>
+            <a class="list-item fa fa-chevron-right" href="#/Group.html">
+              <i class="icon icon-layers c-02"></i>
+              <span>群</span>
+            </a>
+          </li>
+          <li>
+            <a class="list-item fa fa-chevron-right" href="#/Project.html">
+              <i class="icon icon-layers c-02"></i>
+              <span>项目</span>
+            </a>
+          </li>
+          <li>
+            <a class="list-item fa fa-chevron-right" href="#/Signup.html">
+              <i class="icon icon-layers c-02"></i>
+              <span>注册/报名</span>
+            </a>
+          </li>
         </ul>
       </div>
     </div>
