@@ -419,28 +419,6 @@
             <!--  -->
           </div>
           <!--  -->
-
-
-
-
-          <div class="list-tab-group">
-            <div class="list-tab-group-tabs">
-              <ul class="list-tabs" data-view="right">
-                <li class="active">
-                  <a><span>社区</span></a>
-                </li>
-                <li>
-                  <a><span>课程</span></a>
-                </li>
-              </ul>
-            </div>
-            <div class="list-tab-group-conts">
-              <ul class="list border">
-              </ul>
-              <ul class="list border" style="display: none;">
-              </ul>
-            </div>
-          </div>
         </div>
       </div>
       <!--  -->
