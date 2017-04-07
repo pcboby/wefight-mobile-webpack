@@ -628,3 +628,31 @@ label {
 .pd-l-30 {
   padding-left: 30px !important;
 }
+
+/* 
+mu-tabs
+ */
+.mu-tabs{
+  background-color: transparent;
+}
+.mu-tabs::after{
+  content: '';
+  height: 2px;
+  background-color: #f1f1f1;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 0;
+}
+.mu-tab-link-highlight{
+  /* background-color: #f90; */
+  height: 2px;
+  z-index: 1;
+}
+.mu-tab-active{
+  color: #ff5252 !important;
+}
+.mu-tab-link{
+  color: rgba(0,0,0,.6);
+}

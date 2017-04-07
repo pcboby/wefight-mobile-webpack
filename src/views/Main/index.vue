@@ -10,6 +10,15 @@
       </mu-appbar>
     </div>
     <div class="wraper">
+      <!-- <div class="potal">
+        <div class="potal-body">
+          <swiper v-ref:swiper direction="horizontal" :mousewheel-control="true" :performance-mode="false" :pagination-visible="true" :pagination-clickable="true" :loop=“true”>
+            <div>Page 1</div>
+            <div>Page 2</div>
+            <div>Page 3</div>
+          </swiper>
+        </div>
+      </div> -->
       <!--  -->
       <div class="potal">
         <div class="potal-body pd-0">
@@ -173,146 +182,142 @@
           推荐知识
         </div>
         <div class="potal-body">
-          <div class="list-tab-group">
-            <div class="list-tab-group-tabs">
-              <ul class="list-tabs" data-view="right">
-                <li class="active">
-                  <a><span tips="3">进行中</span></a>
-                </li>
-                <li>
-                  <a><span>已完成</span></a>
-                </li>
-                <li>
-                  <a><span>可报名</span></a>
-                </li>
-              </ul>
-            </div>
-            <div class="list-tab-group-conts">
-              <ul class="list border">
-                <li>
-                  <div class="news-item">
-                    <img src="static/update/news.png" alt="">
-                    <p class="title">
-                      市场青训战略预备队 - 课堂演练基础知识储备课堂演练基础知识储备
-                    </p>
-                    <p class="other">
-                      <i class="icon icon-clock mg-r-5 c-03"></i>
-                      <span>2016-11-24 至 2017-10-20</span>
-                    </p>
-                  </div>
-                </li>
-                <li>
-                  <div class="news-item">
-                    <img src="static/update/news.png" alt="">
-                    <p class="title">
-                      市场青训战略预备队 - 课堂演练基础知识储备课堂演练基础知识储备课堂演练基础知识储备
-                    </p>
-                    <p class="other">
-                      <i class="icon icon-clock mg-r-5 c-03"></i>
-                      <span>2016-11-24 至 2017-10-20</span>
-                    </p>
-                  </div>
-                </li>
-                <li>
-                  <div class="news-item">
-                    <img src="static/update/news.png" alt="">
-                    <p class="title">
-                      市场青训战略预备队 - 课堂演练基础知识储备知识储备
-                    </p>
-                    <p class="other">
-                      <i class="icon icon-clock mg-r-5 c-03"></i>
-                      <span>2016-11-24 至 2017-10-20</span>
-                    </p>
-                  </div>
-                </li>
-              </ul>
-              <ul class="list border" style="display: none;">
-                <li>
-                  <div class="news-item">
-                    <img src="static/update/news.png" alt="">
-                    <p class="title">
-                      市场青训战略预备队 - 课堂演练基础知识储备
-                    </p>
-                    <p class="other">
-                      <i class="icon icon-clock mg-r-5 c-03"></i>
-                      <span>2016-11-24 至 2017-10-20</span>
-                    </p>
-                  </div>
-                </li>
-                <li>
-                  <div class="news-item">
-                    <img src="static/update/news.png" alt="">
-                    <p class="title">
-                      市场青训战略预备队 - 课堂演练基础知识储备
-                    </p>
-                    <p class="other">
-                      <i class="icon icon-clock mg-r-5 c-03"></i>
-                      <span>2016-11-24 至 2017-10-20</span>
-                    </p>
-                  </div>
-                </li>
-                <li>
-                  <div class="news-item">
-                    <img src="static/update/news.png" alt="">
-                    <p class="title">
-                      市场青训战略预备队 - 课堂演练基础知识储备
-                    </p>
-                    <p class="other">
-                      <i class="icon icon-clock mg-r-5 c-03"></i>
-                      <span>2016-11-24 至 2017-10-20</span>
-                    </p>
-                  </div>
-                </li>
-              </ul>
-              <ul class="list border" style="display: none;">
-                <li>
-                  <div class="news-item">
-                    <img src="static/update/news.png" alt="">
-                    <p class="title">
-                      市场青训战略预备队 - 课堂演练基础知识储备
-                    </p>
-                    <p class="other">
-                      <i class="icon icon-clock mg-r-5 c-03"></i>
-                      <span>2016-11-24 至 2017-10-20</span>
-                    </p>
-                    <p class="btns">
-                      <a class="btn-block-o-sm">报名</a>
-                    </p>
-                  </div>
-                </li>
-                <li>
-                  <div class="news-item">
-                    <img src="static/update/news.png" alt="">
-                    <p class="title">
-                      市场青训战略预备队 - 课堂演练基础知识储备
-                    </p>
-                    <p class="other">
-                      <i class="icon icon-clock mg-r-5 c-03"></i>
-                      <span>2016-11-24 至 2017-10-20</span>
-                    </p>
-                    <p class="btns">
-                      <a class="btn-block-o-sm">报名</a>
-                    </p>
-                  </div>
-                </li>
-                <li>
-                  <div class="news-item">
-                    <img src="static/update/news.png" alt="">
-                    <p class="title">
-                      市场青训战略预备队 - 课堂演练基础知识储备
-                    </p>
-                    <p class="other">
-                      <i class="icon icon-clock mg-r-5 c-03"></i>
-                      <span>2016-11-24 至 2017-10-20</span>
-                    </p>
-                    <p class="btns">
-                      <a class="btn-block-o-sm">报名</a>
-                    </p>
-                  </div>
-                </li>
-              </ul>
-            </div>
+          <!--  -->
+          <div>
+            <mu-tabs :value="tab_recommend" @change="handle_tab_recommend">
+              <mu-tab value="tab1" title="进行中"/>
+              <mu-tab value="tab2" title="已完成"/>
+              <mu-tab value="tab3" title="可报名"/>
+            </mu-tabs>
+            <!--  -->
+            <ul class="list border" v-if="tab_recommend === 'tab1'">
+              <li>
+                <div class="news-item">
+                  <img src="static/update/news.png" alt="">
+                  <p class="title">
+                    市场青训战略预备队 - 课堂演练基础知识储备课堂演练基础知识储备
+                  </p>
+                  <p class="other">
+                    <i class="icon icon-clock mg-r-5 c-03"></i>
+                    <span>2016-11-24 至 2017-10-20</span>
+                  </p>
+                </div>
+              </li>
+              <li>
+                <div class="news-item">
+                  <img src="static/update/news.png" alt="">
+                  <p class="title">
+                    市场青训战略预备队 - 课堂演练基础知识储备课堂演练基础知识储备课堂演练基础知识储备
+                  </p>
+                  <p class="other">
+                    <i class="icon icon-clock mg-r-5 c-03"></i>
+                    <span>2016-11-24 至 2017-10-20</span>
+                  </p>
+                </div>
+              </li>
+              <li>
+                <div class="news-item">
+                  <img src="static/update/news.png" alt="">
+                  <p class="title">
+                    市场青训战略预备队 - 课堂演练基础知识储备知识储备
+                  </p>
+                  <p class="other">
+                    <i class="icon icon-clock mg-r-5 c-03"></i>
+                    <span>2016-11-24 至 2017-10-20</span>
+                  </p>
+                </div>
+              </li>
+            </ul>
+            <!--  -->
+            <ul class="list border" v-if="tab_recommend === 'tab2'">
+              <li>
+                <div class="news-item">
+                  <img src="static/update/news.png" alt="">
+                  <p class="title">
+                    市场青训战略预备队 - 课堂演练基础知识储备
+                  </p>
+                  <p class="other">
+                    <i class="icon icon-clock mg-r-5 c-03"></i>
+                    <span>2016-11-24 至 2017-10-20</span>
+                  </p>
+                </div>
+              </li>
+              <li>
+                <div class="news-item">
+                  <img src="static/update/news.png" alt="">
+                  <p class="title">
+                    市场青训战略预备队 - 课堂演练基础知识储备
+                  </p>
+                  <p class="other">
+                    <i class="icon icon-clock mg-r-5 c-03"></i>
+                    <span>2016-11-24 至 2017-10-20</span>
+                  </p>
+                </div>
+              </li>
+              <li>
+                <div class="news-item">
+                  <img src="static/update/news.png" alt="">
+                  <p class="title">
+                    市场青训战略预备队 - 课堂演练基础知识储备
+                  </p>
+                  <p class="other">
+                    <i class="icon icon-clock mg-r-5 c-03"></i>
+                    <span>2016-11-24 至 2017-10-20</span>
+                  </p>
+                </div>
+              </li>
+            </ul>
+            <!--  -->
+            <ul class="list border" v-if="tab_recommend === 'tab3'">
+              <li>
+                <div class="news-item">
+                  <img src="static/update/news.png" alt="">
+                  <p class="title">
+                    市场青训战略预备队 - 课堂演练基础知识储备
+                  </p>
+                  <p class="other">
+                    <i class="icon icon-clock mg-r-5 c-03"></i>
+                    <span>2016-11-24 至 2017-10-20</span>
+                  </p>
+                  <p class="btns">
+                    <a class="btn-block-o-sm">报名</a>
+                  </p>
+                </div>
+              </li>
+              <li>
+                <div class="news-item">
+                  <img src="static/update/news.png" alt="">
+                  <p class="title">
+                    市场青训战略预备队 - 课堂演练基础知识储备
+                  </p>
+                  <p class="other">
+                    <i class="icon icon-clock mg-r-5 c-03"></i>
+                    <span>2016-11-24 至 2017-10-20</span>
+                  </p>
+                  <p class="btns">
+                    <a class="btn-block-o-sm">报名</a>
+                  </p>
+                </div>
+              </li>
+              <li>
+                <div class="news-item">
+                  <img src="static/update/news.png" alt="">
+                  <p class="title">
+                    市场青训战略预备队 - 课堂演练基础知识储备
+                  </p>
+                  <p class="other">
+                    <i class="icon icon-clock mg-r-5 c-03"></i>
+                    <span>2016-11-24 至 2017-10-20</span>
+                  </p>
+                  <p class="btns">
+                    <a class="btn-block-o-sm">报名</a>
+                  </p>
+                </div>
+              </li>
+            </ul>
+            <!--  -->
           </div>
+          <!--  -->
         </div>
       </div>
       <!--  -->
@@ -321,6 +326,103 @@
           培训面授
         </div>
         <div class="potal-body">
+          <!--  -->
+          <div>
+            <mu-tabs :value="tab_training" @change="handle_tab_training">
+              <mu-tab value="tab1" title="社区"/>
+              <mu-tab value="tab2" title="课程"/>
+            </mu-tabs>
+            <!--  -->
+            <ul class="list border" v-if="tab_training === 'tab1'">
+              <li>
+                <div class="news-item" data-view="right">
+                  <img src="static/update/news.png" alt="">
+                  <p class="title">
+                    市场青训战略预备队 - 课堂演练基础知识储备课堂演练基础知识储备课堂演练基础知识储备
+                  </p>
+                  <p class="other">
+                    <span class="mg-r-5">XMEN</span>
+                    <span class="mg-r-5">3月9日</span>
+                    <span class="mg-r-5">9999+浏览</span>
+                  </p>
+                </div>
+              </li>
+              <li>
+                <div class="news-item" data-view="right">
+                  <p class="title">100 announcements form Google Cloud Next 2017-A Mast read for All Cloud folke.</p>
+                  <p class="other">
+                    <span class="mg-r-5">XMEN</span>
+                    <span class="mg-r-5">3月9日</span>
+                    <span class="mg-r-5">100浏览</span>
+                  </p>
+                </div>
+              </li>
+              <li>
+                <div class="news-item" data-view="right">
+                  <img src="static/update/news.png" alt="">
+                  <p class="title">
+                    市场青训战略预备队 - 课堂演练基础知识储备
+                  </p>
+                  <p class="other">
+                    <span class="mg-r-5">XMEN</span>
+                    <span class="mg-r-5">3月9日</span>
+                    <span class="mg-r-5">100浏览</span>
+                  </p>
+                </div>
+              </li>
+            </ul>
+            <!--  -->
+            <ul class="list border" v-if="tab_training === 'tab2'">
+              <li>
+                <div class="news-item">
+                  <img src="static/update/news.png" alt="">
+                  <p class="title">
+                    市场青训战略预备队 - 课堂演练基础知识储备
+                  </p>
+                  <p class="other">
+                    <i class="icon  icon-user mg-r-5 c-02"></i>
+                    <span class="mg-r-15">4596</span>
+                    <i class="icon icon-emotsmile mg-r-5 c-03"></i>
+                    <span>96%</span>
+                  </p>
+                </div>
+              </li>
+              <li>
+                <div class="news-item">
+                  <img src="static/update/news.png" alt="">
+                  <p class="title">
+                    市场青训战略预备队 - 课堂演练基础知识储备
+                  </p>
+                  <p class="other">
+                    <i class="icon  icon-user mg-r-5 c-02"></i>
+                    <span class="mg-r-15">4596</span>
+                    <i class="icon icon-emotsmile mg-r-5 c-03"></i>
+                    <span>96%</span>
+                  </p>
+                </div>
+              </li>
+              <li>
+                <div class="news-item">
+                  <img src="static/update/news.png" alt="">
+                  <p class="title">
+                    市场青训战略预备队 - 课堂演练基础知识储备
+                  </p>
+                  <p class="other">
+                    <i class="icon  icon-user mg-r-5 c-02"></i>
+                    <span class="mg-r-15">9999+</span>
+                    <i class="icon icon-emotsmile mg-r-5 c-03"></i>
+                    <span>96%</span>
+                  </p>
+                </div>
+              </li>
+            </ul>
+            <!--  -->
+          </div>
+          <!--  -->
+
+
+
+
           <div class="list-tab-group">
             <div class="list-tab-group-tabs">
               <ul class="list-tabs" data-view="right">
@@ -334,86 +436,8 @@
             </div>
             <div class="list-tab-group-conts">
               <ul class="list border">
-                <li>
-                  <div class="news-item" data-view="right">
-                    <img src="static/update/news.png" alt="">
-                    <p class="title">
-                      市场青训战略预备队 - 课堂演练基础知识储备课堂演练基础知识储备课堂演练基础知识储备
-                    </p>
-                    <p class="other">
-                      <span class="mg-r-5">XMEN</span>
-                      <span class="mg-r-5">3月9日</span>
-                      <span class="mg-r-5">9999+浏览</span>
-                    </p>
-                  </div>
-                </li>
-                <li>
-                  <div class="news-item" data-view="right">
-                    <p class="title">100 announcements form Google Cloud Next 2017-A Mast read for All Cloud folke.</p>
-                    <p class="other">
-                      <span class="mg-r-5">XMEN</span>
-                      <span class="mg-r-5">3月9日</span>
-                      <span class="mg-r-5">100浏览</span>
-                    </p>
-                  </div>
-                </li>
-                <li>
-                  <div class="news-item" data-view="right">
-                    <img src="static/update/news.png" alt="">
-                    <p class="title">
-                      市场青训战略预备队 - 课堂演练基础知识储备
-                    </p>
-                    <p class="other">
-                      <span class="mg-r-5">XMEN</span>
-                      <span class="mg-r-5">3月9日</span>
-                      <span class="mg-r-5">100浏览</span>
-                    </p>
-                  </div>
-                </li>
               </ul>
               <ul class="list border" style="display: none;">
-                <li>
-                  <div class="news-item">
-                    <img src="static/update/news.png" alt="">
-                    <p class="title">
-                      市场青训战略预备队 - 课堂演练基础知识储备
-                    </p>
-                    <p class="other">
-                      <i class="icon  icon-user mg-r-5 c-02"></i>
-                      <span class="mg-r-15">4596</span>
-                      <i class="icon icon-emotsmile mg-r-5 c-03"></i>
-                      <span>96%</span>
-                    </p>
-                  </div>
-                </li>
-                <li>
-                  <div class="news-item">
-                    <img src="static/update/news.png" alt="">
-                    <p class="title">
-                      市场青训战略预备队 - 课堂演练基础知识储备
-                    </p>
-                    <p class="other">
-                      <i class="icon  icon-user mg-r-5 c-02"></i>
-                      <span class="mg-r-15">4596</span>
-                      <i class="icon icon-emotsmile mg-r-5 c-03"></i>
-                      <span>96%</span>
-                    </p>
-                  </div>
-                </li>
-                <li>
-                  <div class="news-item">
-                    <img src="static/update/news.png" alt="">
-                    <p class="title">
-                      市场青训战略预备队 - 课堂演练基础知识储备
-                    </p>
-                    <p class="other">
-                      <i class="icon  icon-user mg-r-5 c-02"></i>
-                      <span class="mg-r-15">9999+</span>
-                      <i class="icon icon-emotsmile mg-r-5 c-03"></i>
-                      <span>96%</span>
-                    </p>
-                  </div>
-                </li>
               </ul>
             </div>
           </div>
@@ -425,5 +449,22 @@
     </div>
   </div>
 </template>
-<script></script>
+<script>
+export default {
+  data () {
+    return {
+      tab_recommend: 'tab1',
+      tab_training: 'tab1'
+    }
+  },
+  methods: {
+    handle_tab_recommend (val) {
+      this.tab_recommend = val
+    },
+    handle_tab_training (val) {
+      this.tab_training = val
+    }
+  }
+}
+</script>
 <style></style>

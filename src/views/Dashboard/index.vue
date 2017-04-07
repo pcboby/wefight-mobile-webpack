@@ -6,11 +6,10 @@
           <i class="fa fa-reorder"></i>
         </mu-icon-button>
         <mu-icon-menu icon="more_vert" slot="right">
-          <mu-menu-item title="菜单 1" />
-          <mu-menu-item title="菜单 2" />
-          <mu-menu-item title="菜单 3" />
-          <mu-menu-item title="菜单 4" />
-          <mu-menu-item title="菜单 5" />
+          <mu-menu-item title="设置" leftIcon="settings" />
+          <mu-menu-item title="帮助" leftIcon="help_outline" />
+          <mu-divider />
+          <mu-menu-item title="退出" leftIcon="power_settings_new" />
         </mu-icon-menu>
       </mu-appbar>
     </div>
@@ -20,38 +19,17 @@
           页面
         </div>
         <div class="potal-body">
-          <ul class="list border">
-            <li>
-              <a class="list-item fa fa-chevron-right" href="#/Bridge.html">
-                <i class="icon icon-layers c-02"></i>
-                <span>宣传桥页</span>
-              </a>
-            </li>
-            <li>
-              <a class="list-item fa fa-chevron-right" href="#/Main.html">
-                <i class="icon icon-layers c-02"></i>
-                <span>单兵作战（首页）</span>
-              </a>
-            </li>
-            <li>
-              <a class="list-item fa fa-chevron-right" href="#/Group.html">
-                <i class="icon icon-layers c-02"></i>
-                <span>群</span>
-              </a>
-            </li>
-            <li>
-              <a class="list-item fa fa-chevron-right" href="#/Project.html">
-                <i class="icon icon-layers c-02"></i>
-                <span>项目</span>
-              </a>
-            </li>
-            <li>
-              <a class="list-item fa fa-chevron-right" href="#/Signup.html">
-                <i class="icon icon-layers c-02"></i>
-                <span>注册/报名</span>
-              </a>
-            </li>
-          </ul>
+          <mu-list>
+            <mu-list-item v-for="item in items" 
+              :key="item.title"
+              :title="item.title" 
+              :href="item.url">
+              <mu-icon slot="left" value="layers" class="c-02" />
+              <!-- <div class="mu-item-left">
+                <i class="icon icon-layers"></i>
+              </div> -->
+            </mu-list-item>
+          </mu-list>
         </div>
       </div>
     </div>
@@ -62,26 +40,26 @@ export default {
   name: 'Dashboard',
   data () {
     return {
-      // links : [{
-      //   title : '宣传桥页',
-      //   url : '#/Bridge.html'
-      // }, {
-      //   title : '主页（单兵作战）',
-      //   url : '#/main.html'
-      // }, {
-      //   title : '项目',
-      //   url : '#/project.html'
-      // }, {
-      //   title : '报名',
-      //   url : '#/signup.html'
-      // }, {
-      //   title : '群组',
-      //   url : '#/group.html'
-      // }]
+      items: [{
+        title: '宣传桥页',
+        url: '#/Bridge.html'
+      }, {
+        title: '报名',
+        url: '#/Signup.html'
+      }, {
+        title: '主页（单兵作战）',
+        url: '#/Main.html'
+      }, {
+        title: '项目',
+        url: '#/Project.html'
+      }, {
+        title: '群组',
+        url: '#/Group.html'
+      }]
+
     }
   }
 }
-// [{title : '宣传桥页', url : '#/Bridge.html' }, { title : '主页（单兵作战）', url : '#/main.html' }, { title: '项目', url : '#/project.html' }, { title: '报名', url : '#/signup.html' }, { title: '群组', url : '#/group.html' }]
 </script>
 <style scoped>
 </style>

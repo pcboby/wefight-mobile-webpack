@@ -9,7 +9,10 @@ import 'font-awesome/css/font-awesome.css'
 import '@/themes/default/css/style.css'
 // 加载muse-ui插件库
 import Vue from 'vue'
-import MUI from 'muse-ui'
 
+import MUI from 'muse-ui'
 Vue.use(MUI)
+
+import Swiper from 'vue-swiper'
+Vue.use(Swiper)
 
