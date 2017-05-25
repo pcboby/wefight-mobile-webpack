@@ -5,6 +5,10 @@ import Vue from 'vue'
 import router from './app.router.js'
 import ui from './app.ui.js'
 // ==================================================================
+// 加载第三方插件
+// ==================================================================
+import Swiper from 'vue-swiper'
+// ==================================================================
 // 加载项目页面及组件
 // ==================================================================
 import App from '@/tpls/App.vue'
@@ -17,5 +21,5 @@ new Vue({
   router,
   ui,
   template: '<App/>',
-  components: { App }
+  components: { App, Swiper }
 })

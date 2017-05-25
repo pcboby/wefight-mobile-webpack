@@ -13,6 +13,3 @@ import Vue from 'vue'
 import MUI from 'muse-ui'
 Vue.use(MUI)
 
-import Swiper from 'vue-swiper'
-Vue.use(Swiper)
-

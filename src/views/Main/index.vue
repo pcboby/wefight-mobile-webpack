@@ -10,15 +10,17 @@
       </mu-appbar>
     </div>
     <div class="wraper">
-      <!-- <div class="potal">
+      <div class="potal">
         <div class="potal-body">
-          <swiper v-ref:swiper direction="horizontal" :mousewheel-control="true" :performance-mode="false" :pagination-visible="true" :pagination-clickable="true" :loop=“true”>
-            <div>Page 1</div>
-            <div>Page 2</div>
-            <div>Page 3</div>
-          </swiper>
+          <!-- <swiper id="swiper_horizontal"
+            :pagination-visible="true"
+            direction="horizontal">
+            <div v-for="slideText in slides" track-by="$index">{{slideText}}</div>
+          </swiper> -->
         </div>
-      </div> -->
+      </div>
+      <!--  -->
+      <div class="space"></div>
       <!--  -->
       <div class="potal">
         <div class="potal-body pd-0">
@@ -185,9 +187,9 @@
           <!--  -->
           <div>
             <mu-tabs :value="tab_recommend" @change="handle_tab_recommend">
-              <mu-tab value="tab1" title="进行中"/>
-              <mu-tab value="tab2" title="已完成"/>
-              <mu-tab value="tab3" title="可报名"/>
+              <mu-tab value="tab1" title="进行中" />
+              <mu-tab value="tab2" title="已完成" />
+              <mu-tab value="tab3" title="可报名" />
             </mu-tabs>
             <!--  -->
             <ul class="list border" v-if="tab_recommend === 'tab1'">
@@ -329,8 +331,8 @@
           <!--  -->
           <div>
             <mu-tabs :value="tab_training" @change="handle_tab_training">
-              <mu-tab value="tab1" title="社区"/>
-              <mu-tab value="tab2" title="课程"/>
+              <mu-tab value="tab1" title="社区" />
+              <mu-tab value="tab2" title="课程" />
             </mu-tabs>
             <!--  -->
             <ul class="list border" v-if="tab_training === 'tab1'">
@@ -428,9 +430,11 @@
   </div>
 </template>
 <script>
+
 export default {
   data () {
     return {
+      slides: ['← o →', 'Page 2', 'Page 3'],
       tab_recommend: 'tab1',
       tab_training: 'tab1'
     }
@@ -445,4 +449,30 @@ export default {
   }
 }
 </script>
-<style></style>
+<style>
+.swiper {
+  height: 200px;
+}
+
+.swiper-wrap > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 48px;
+  color: #fff;
+}
+
+.swiper-wrap > div:nth-child(3n) {
+  background-color: skyblue;
+}
+
+.swiper-wrap > div:nth-child(3n + 1) {
+  background-color: yellowgreen;
+}
+
+.swiper-wrap > div:nth-child(3n + 2) {
+  background-color: rosybrown;
+}
+
+</style>
